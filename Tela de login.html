@@ -1,0 +1,85 @@
+<html>
+
+<head>
+
+	<style>
+	/* body */
+	body {
+	margin: 0;
+	font: 11px 'Calibri';
+	background: #fff;
+	color: #000;
+	}
+	
+	/* content */
+	#content {
+	position: relative;
+	margin: 0 auto;
+	width: 270px;
+	margin-top: 15%;
+	text-align: center;
+	font-size: 13px;
+	/* border: 1px solid #eee; */;
+	}
+	
+	.header {
+	background: url("logo-unicarioca1.png");
+	width: 249px;
+	height: 87px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	}
+	
+	/* formatação do formulário */
+	input {
+	border: 1px solid #eee;
+	border-radius: 5px;
+	line-height: 20px;
+	padding-left: 5px;
+	}
+	
+	input::placeholder {
+	font: 10px 'Consolas', serif;
+	padding-left: 10px;
+	color: #aaa;
+	}
+	
+	label {
+	font-weight: bolder;
+	color: #000;
+	}
+	
+	input[type=submit] {
+	border: 1px solid #aaa;
+	line-height: 20px;
+	padding: 3px;
+	cursor: hand;
+	transition: ease-in .80s;
+	}
+	
+	input[type=submit]:hover {
+	background: #eee;
+	}
+	
+	::selection {
+	background: #ccc;
+	color: #fff;
+	}
+	</style>
+</head>
+
+<body>
+
+<div id="content">
+
+
+	<div class="header"></div>
+
+	<label>Login:</label> <input type="text" placeholder="Login"><br><br>
+	<label>Senha:</label> <input type="password"  placeholder="Senha"><br><br>
+	<input type="submit">
+
+</div>
+</body>
+
+</html>
